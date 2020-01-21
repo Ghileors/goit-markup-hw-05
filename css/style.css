@@ -76,7 +76,7 @@ body {
   margin: 0 auto;
   margin-top: 26px;
   content: " ";
-  background-image: url(/images/icons/blue_line.png);
+  background-image: url(../images/icons/blue_line.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -260,7 +260,7 @@ body {
   content: "";
   width: 66px;
   height: 66px;
-  background-image: url(/images/icons/settings.png);
+  background-image: url(../images/icons/settings.png);
   background-repeat: no-repeat;
 }
 
@@ -272,7 +272,7 @@ body {
   content: "";
   width: 66px;
   height: 66px;
-  background-image: url(/images/icons/safe.png);
+  background-image: url(../images/icons/safe.png);
   background-repeat: no-repeat;
 }
 
@@ -284,7 +284,7 @@ body {
   content: "";
   width: 66px;
   height: 66px;
-  background-image: url(/images/icons/world.png);
+  background-image: url(../images/icons/world.png);
   background-repeat: no-repeat;
 }
 
@@ -296,7 +296,7 @@ body {
   content: "";
   width: 66px;
   height: 66px;
-  background-image: url(/images/icons/compass.png);
+  background-image: url(../images/icons/compass.png);
   background-repeat: no-repeat;
 }
 
@@ -426,7 +426,7 @@ body {
   height: 4px;
   margin-top: 14px;
   margin-bottom: 30px;
-  background-image: url(/images/blog/line.png);
+  background-image: url(../images/blog/line.png);
 }
 
 .excerpt {
@@ -447,7 +447,7 @@ body {
 }
 
 .newsletter__title::after {
-  background-image: url(/images/icons/white_line.png);
+  background-image: url(../images/icons/white_line.png);
 }
 
 .newsletter__subtitle {
@@ -479,7 +479,7 @@ body {
   width: 85px;
   height: 60px;
   background-color: #4ec6ab;
-  background-image: url(/images/icons/arrows_button.png);
+  background-image: url(../images/icons/arrows_button.png);
   background-repeat: no-repeat;
   background-position: center;
 }
