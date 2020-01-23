@@ -18,18 +18,26 @@
       <nav class="navigation"> 
 
          <section class="user__section">
-          <div class="user__nav container">                       
+
+           <h2 class="visually__hidden">Slider</h2>
+
+          <div class="user__nav container">      
+
             <ul class="contact__list list">
+
               <li class="contact__item">
-                <a href="tel:" class="contact__link link">123-123456789</a>
+                <a href="tel:" class="contact__link phone link">123-123456789</a>
               </li>
+
               <li class="contact__item">
-                <a href="mailto" class="contact__link link">info@ltntcom</a>
+                <a href="mailto" class="contact__link mail link">info@ltntcom</a>
               </li>
+
             </ul>
+
             <ul class="user__list list">
               <li class="user__item">
-              <a href="#" class="user__link link">My user</a>
+              <a href="#" class="user__link link">My account</a>
             </li>
               <li class="user__item">
                 <a href="#" class="user__link link">Wishlist</a>
@@ -44,6 +52,7 @@
                 <a href="#" class="user__link link">Login/Register</a>
               </li>
             </ul>
+
           </div>
          </section>
 
@@ -80,7 +89,7 @@
       <section class="banner__section">
         <div class="banner container">
           <h2 class="banner__title">
-            Dresses<span class= "color__title"> & </span>Jeans</br> 
+            Dresses<span class= "color__title"> & </span>Jeans<br> 
             from ourfamous brands<span class="color__title"> sale</span>
           </h2>
           <a href="#" class="banner__button button">Buy now</a>
@@ -118,37 +127,73 @@
 
           <ul class="collection__list list">
             <li class="collection__item">
-              <a href="#" class="collection__link link">
+              <div class="img__container overlay">
+                <div class="action">
+                  <button type="button" class="button__icon icon-like"></button>
+                  <button type="button" class="button__icon icon-arrow"></button>
+                  <button type="button" class="button__icon icon-clock"></button>
+                  <button type="button" class="button__add icon-basket">Add to card</button>
+                </div>
                 <img src="./images/collection/category-1.png" alt="" class="image">
-                <h3 class="desc">Blue tshirt
-                  <span class="cost">$26</span>
-                </h3>
-              </a>
-              </li>
+              </div>
+              <a href="#" class="product__link link">
+               <span class="wrapper__product__name">
+                <span class="product__name">Blue tshirt</span>
+                <span class="product__cost">$26</span>
+               </span>
+              </a>           
+            </li>
             <li class="collection__item">
-              <a href="#" class="collection__link link">
-                <img src="./images/collection/category-2.png" alt="" class="image">
-                <h3 class="desc">Woman shirt
-                  <span class="cost">$31</span>
-                </h3>
-              </a>
-              </li>
+                <div class="img__container overlay">
+                  <div class="action">
+                    <button type="button" class="button__icon icon-like"></button>
+                    <button type="button" class="button__icon icon-arrow"></button>
+                    <button type="button" class="button__icon icon-clock"></button>
+                    <button type="button" class="button__add icon-basket">Add to card</button>
+                  </div>
+                  <img src="./images/collection/category-2.png" alt="" class="image">            
+                </div>
+                <a href="#" class="product__link link">
+                 <span class="wrapper__product__name">
+                  <span class="product__name">Woman shirt</span>
+                  <span class="product__cost">$31</span>
+                 </span>
+                </a>           
+            </li>
             <li class="collection__item">
-              <a href="#" class="collection__link link">
-                <img src="./images/collection/category-3.png" alt="" class="image">
-                <h3 class="desc">Yellow tshirt
-                  <span class="cost">$21</span>
-                </h3>
-              </a>
-              </li>
+                  <div class="img__container overlay">
+                    <div class="action">
+                      <button type="button" class="button__icon icon-like"></button>
+                      <button type="button" class="button__icon icon-arrow"></button>
+                      <button type="button" class="button__icon icon-clock"></button>
+                      <button type="button" class="button__add icon-basket">Add to card</button>
+                    </div>
+                    <img src="./images/collection/category-3.png" alt="" class="image">           
+                  </div>
+                  <a href="#" class="product__link link">
+                   <span class="wrapper__product__name">
+                    <span class="product__name">Yellow tshirt</span>
+                    <span class="product__cost">$21</span>
+                   </span>
+                  </a>           
+            </li>
             <li class="collection__item">
-              <a href="#" class="collection__link link">
-                <img src="./images/collection/category-4.png" alt="" class="image">
-                <h3 class="desc">Cool lingerie
-                  <span class="cost">$56</span>
-                </h3>
-              </a>
-              </li>
+                    <div class="img__container overlay">
+                      <div class="action">
+                        <button type="button" class="button__icon icon-like"></button>
+                        <button type="button" class="button__icon icon-arrow"></button>
+                        <button type="button" class="button__icon icon-clock"></button>
+                        <button type="button" class="button__add icon-basket">Add to card</button>
+                      </div>
+                      <img src="./images/collection/category-4.png" alt="" class="image">   
+                    </div>    
+                    <a href="#" class="product__link link">
+                     <span class="wrapper__product__name">
+                      <span class="product__name">Cool lingerie</span>
+                      <span class="product__cost">$56</span>
+                     </span>
+                    </a>                 
+            </li>
           </ul>
         </div>
           </section>
@@ -157,101 +202,143 @@
         <div class="container">
           <h2 class="title">Featured products</h2>
   
-          <ul class="featured__list list">
-          <li class="featured__item">
-            <a href="#" class="feautered__link link">
-                <img
-                src="./images/catalog/product1.png"
-                alt="featured item"
-                class="image" width="255"
-              />
-              <h3 class="desc">Blue tshirt            
-              <span class="cost">$26</span></h3>
-            </a>   
-            <li class="featured__item">
-                <a href="#" class="feautered__link link">
-                    <img
-                    src="./images/catalog/product2.png"
-                    alt="featured item"
-                    class="image" width="255"
-                  />
-                  <h3 class="desc">Woman shirt
-                    <span class="cost">$31</span>
-                  </h3>
-                </a>
-              </li>
-              <li class="featured__item">
-                <a href="#" class="feautered__link link">
-                    <img
-                    src="./images/catalog/product3.png"
-                    alt="featured item"
-                    class="image" width="255"
-                  />
-                  <h3 class="desc">Yellow tshirt
-                    <span class="cost">$21</span>
-                  </h3>
-                </a>
-              </li>
-              <li class="featured__item">
-                <a href="#" class="feautered__link link">
-                    <img
-                    src="./images/catalog/product4.png"
-                    alt="featured item"
-                    class="image" width="255"
-                  />
-                  <h3 class="desc">Cool lingerie
-                    <span class="cost">$56</span>
-                  </h3>
-                </a>
-              </li>
-              <li class="featured__item">
-                <a href="#" class="feautered__link link">
-                    <img
-                    src="./images/catalog/product5.png"
-                    alt="featured item"
-                    class="image" width="255"
-                  />
-                  <h3 class="desc">Blue tshirt
-                    <span class="cost">$26</span>
-                  </h3>
-                </a>
-              </li>
-              <li class="featured__item">
-                <a href="#" class="feautered__link link">
-                    <img
-                    src="./images/catalog/product6.png"
-                    alt="featured item"
-                    class="image" width="255"
-                  />
-                  <h3 class="desc">Woman shirt
-                    <span class="cost">$31</span>
-                  </h3>
-                </a>
-              </li>
-              <li class="featured__item">
-                <a href="#" class="feautered__link link">
-                    <img
-                    src="./images/catalog/product7.png"
-                    alt="featured item"
-                    class="image" width="255"
-                  />
-                  <h3 class="desc">Yellow tshirt
-                    <span class="cost">$21</span>
-                  </h3>
-                </a>
-              </li>
-              <li class="featured__item">
-                <a href="#" class="feautered__link link">
-                    <img
-                    src="./images/catalog/product8.png"
-                    alt="featured item"
-                    class="image" width="255"
-                  />
-                  <h3 class="desc">Cool lingerie
-                    <span class="cost">$56</span>
-                  </h3>
-                </a>
-              </li>
+          <ul class="collection__list list">
+            <li class="collection__item">
+              <div class="img__container overlay">
+                <div class="action">
+                  <button type="button" class="button__icon icon-like"></button>
+                  <button type="button" class="button__icon icon-arrow"></button>
+                  <button type="button" class="button__icon icon-clock"></button>
+                  <button type="button" class="button__add icon-basket">Add to card</button>
+                </div>
+                <img src="./images/catalog/product1.png" alt="" class="image">             
+              </div> 
+              <a href="#" class="product__link link">
+                <span class="wrapper__product__name">
+                <span class="product__name">Blue tshirt</span>
+                <span class="product__cost">$26</span>
+               </span>
+              </a>        
+            </li>
+            <li class="collection__item">
+                <div class="img__container overlay">
+                  <div class="action">
+                    <button type="button" class="button__icon icon-like"></button>
+                    <button type="button" class="button__icon icon-arrow"></button>
+                    <button type="button" class="button__icon icon-clock"></button>
+                    <button type="button" class="button__add icon-basket">Add to card</button>
+                  </div>
+                  <img src="./images/catalog/product2.png" alt="" class="image">        
+                </div> 
+                <a href="#" class="product__link link">
+                 <span class="wrapper__product__name">
+                  <span class="product__name">Woman shirt</span>
+                  <span class="product__cost">$31</span>
+                 </span>
+                </a>             
+            </li>
+            <li class="collection__item">
+                  <div class="img__container overlay">
+                    <div class="action">
+                      <button type="button" class="button__icon icon-like"></button>
+                      <button type="button" class="button__icon icon-arrow"></button>
+                      <button type="button" class="button__icon icon-clock"></button>
+                      <button type="button" class="button__add icon-basket">Add to card</button>
+                    </div>
+                    <img src="./images/catalog/product3.png" alt="" class="image">            
+                  </div>
+                  <a href="#" class="product__link link">
+                   <span class="wrapper__product__name">
+                    <span class="product__name">Yellow tshirt</span>
+                    <span class="product__cost">$21</span>
+                   </span>
+                  </a>               
+            </li>
+            <li class="collection__item">
+                    <div class="img__container overlay">
+                      <div class="action">
+                        <button type="button" class="button__icon icon-like"></button>
+                        <button type="button" class="button__icon icon-arrow"></button>
+                        <button type="button" class="button__icon icon-clock"></button>
+                        <button type="button" class="button__add icon-basket">Add to card</button>
+                      </div>
+                      <img src="./images/catalog/product4.png" alt="" class="image">              
+                    </div>
+                    <a href="#" class="product__link link">
+                     <span class="wrapper__product__name">
+                      <span class="product__name">Cool lingerie</span>
+                      <span class="product__cost">$56</span>
+                     </span>
+                    </a>                 
+            </li>
+            <li class="collection__item">
+              <div class="img__container overlay">
+                <div class="action">
+                  <button type="button" class="button__icon icon-like"></button>
+                  <button type="button" class="button__icon icon-arrow"></button>
+                  <button type="button" class="button__icon icon-clock"></button>
+                  <button type="button" class="button__add icon-basket">Add to card</button>
+                </div>
+                <img src="./images/catalog/product5.png" alt="" class="image">              
+              </div>
+              <a href="#" class="product__link link">
+               <span class="wrapper__product__name">
+                <span class="product__name">Blue tshirt</span>
+                <span class="product__cost">$26</span>
+               </span>
+              </a>             
+            </li>
+            <li class="collection__item">
+                <div class="img__container overlay">
+                  <div class="action">
+                    <button type="button" class="button__icon icon-like"></button>
+                    <button type="button" class="button__icon icon-arrow"></button>
+                    <button type="button" class="button__icon icon-clock"></button>
+                    <button type="button" class="button__add icon-basket">Add to card</button>
+                  </div>
+                  <img src="./images/catalog/product6.png" alt="" class="image">        
+                </div>
+                <a href="#" class="product__link link">
+                 <span class="wrapper__product__name">
+                  <span class="product__name">Woman shirt</span>
+                  <span class="product__cost">$31</span>
+                 </span>
+                </a>            
+            </li>
+            <li class="collection__item">
+                  <div class="img__container overlay">
+                    <div class="action">
+                      <button type="button" class="button__icon icon-like"></button>
+                      <button type="button" class="button__icon icon-arrow"></button>
+                      <button type="button" class="button__icon icon-clock"></button>
+                      <button type="button" class="button__add icon-basket">Add to card</button>
+                    </div>
+                    <img src="./images/catalog/product7.png" alt="" class="image">
+                  </div>
+                  <a href="#" class="product__link link">
+                   <span class="wrapper__product__name">
+                    <span class="product__name">Yellow tshirt</span>
+                    <span class="product__cost">$21</span>
+                   </span>
+                  </a>                
+            </li>
+            <li class="collection__item">
+                  <div class="img__container overlay">
+                    <div class="action">
+                      <button type="button" class="button__icon icon-like"></button>
+                      <button type="button" class="button__icon icon-arrow"></button>
+                      <button type="button" class="button__icon icon-clock"></button>
+                      <button type="button" class="button__add icon-basket">Add to card</button>
+                    </div>
+                    <img src="./images/catalog/product8.png" alt="" class="image">
+                  </div>
+                   <a href="#" class="product__link link">
+                    <span class="wrapper__product__name">
+                     <span class="product__name">Cool lingerie</span>
+                     <span class="product__cost">$56</span>
+                    </span>
+                   </a>                  
+            </li>
           </ul>
         </div>
       </section>
