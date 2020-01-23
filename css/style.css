@@ -181,6 +181,8 @@ body {
   padding: 34px 0;
 }
 
+/* LOGO */
+
 .logo {
   text-decoration: none;
   text-transform: uppercase;
@@ -610,7 +612,7 @@ body {
   padding-top: 100px;
   padding-bottom: 132px;
   background-color: var(--hover-focus-change-color);
-  background-image: url(/images/footer.png);
+  background-image: url(../images/icons/footer.png);
 }
 
 .newsletter__title::after {
